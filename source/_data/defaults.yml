@@ -55,7 +55,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "jsday 2020 is the 10th edition of the Italian JavaScript conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a>, <a href='https://www.reactjsday.it/'>reactjsday</a> and many others.
+  geninfo_description: "jsday 2021 is the 10th edition of the Italian JavaScript conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a>, <a href='https://www.reactjsday.it/'>reactjsday</a> and many others.
   <br> <br /> The event is international and all sessions will be in English. This 2021 edition is taking place online, and will last 2 days (July 6th and 7th)"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
@@ -86,7 +86,7 @@ conference:
   newsletter_disclaimer: "We use Mailchimp as our email marketing platform. By subscribing to the newsletter, you accept that your data are transmitted to Mailchimp to be processed. "
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
-  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden	
+  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
   mcs_title: "MC"
   speakers_visible: false
   speakers_title: "speaker"
