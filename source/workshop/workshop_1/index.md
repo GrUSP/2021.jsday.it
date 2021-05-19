@@ -1,10 +1,10 @@
 ---
-title: rails and vue
-date: 2020-04-21 09:27:00
+title: Front-end Testing
+date: 2021-07-13T09:00+02:00
 layout: workshop_single
-ws_id: workshop_1
-path: workshop/workshop_1
-permalink: workshop/workshop_1
+ws_id: front-end-testing
+path: workshop/front-end-testing
+permalink: workshop/front-end-testing
 # Used to generate breadcrumbs
 parent: workshop
 ---
