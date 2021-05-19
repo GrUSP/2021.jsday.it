@@ -9,7 +9,7 @@ workshops:
     ws_id: front-end-testing
     is_external: false
     page_uri: "workshop/front-end-testing.html"
-    page_title: "Front-end Testing"
+    page_title: "workshop: Front-end testing on steroids with Cypress"
     workshop_title: "Front-end testing on steroids with Cypress"
     ticket_url: "https://jsday-2021.eventbrite.it?utm_medium=web&utm_source=site&utm_campaign=2021"
     ticket_label: "Registrati"
