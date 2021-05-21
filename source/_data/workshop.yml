@@ -81,24 +81,24 @@ workshops:
     topics_title: "Argomenti"
     topics:
       - <strong>Cos’è un test E2E</strong>
-      - "- Automazione del browser"
-      - "- Pro e contro dei test E2E vs. test di integrazione di UI"
+      - "<i>Automazione del browser</i>"
+      - "<i>Pro e contro dei test E2E vs. test di integrazione di UI</i>"
       - <strong>Cypress</strong>
-      - "- Il Test Runner"
-      - "- Attese automatiche"
-      - "- Screenshot e video automatici"
-      - "- Esecuzione asincrona"
+      - "<i>Il Test Runner</i>"
+      - "<i>Attese automatiche</i>"
+      - "<i>Screenshot e video automatici</i>"
+      - "<i>Esecuzione asincrona</i>"
       - <strong>Cypress come browser di sviluppo principale</strong>
       - <strong>Best practice</strong>
-      - "- Come identificare gli elementi in pagina"
-      - "- Attese al posto delle pause, concetto di deterministic event"
-      - "- Utilizzo corretto delle asserzioni"
+      - "<i>Come identificare gli elementi in pagina</i>"
+      - "<i>Attese al posto delle pause, concetto di deterministic event</i>"
+      - "<i>Utilizzo corretto delle asserzioni</i>"
       - <strong>Perchè mantenere i test il più semplici possibile</strong>
       - <strong>Utilità per gli altri membri del team</strong>
-      - "- Convenzioni di naming e script dedicati"
-      - "- Test di monitoraggio"
+      - "<i>Convenzioni di naming e script dedicati</i>"
+      - "<i>Test di monitoraggio</i>"
       - <strong>Utilizzo avanzato di cypress</strong>
-      - "- Comandi custom"
+      - "<i>Comandi custom</i>"
       - <strong>Visual Regression Testing per l'intera web-app</strong>
       - <strong>Come aggiungere Cypress ad un progetto esistente</strong>
       - <strong>Come aggiungere Cypress in Continuous Integration</strong>
