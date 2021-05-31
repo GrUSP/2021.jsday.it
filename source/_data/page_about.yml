@@ -15,7 +15,7 @@ more:
   content_2:
 past_edition:
   title: "Browse past editions of jsday"
-  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unlcyJiPwO-l-hrw8EVWTxR6"
+  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unkLg4R7_tnIfoyi0Wr-QPkD"
   video_caption: "Watch the videos from the past editions"
 team:
   title: "Our team"
@@ -33,3 +33,15 @@ team:
       name: "Giovanna Ferrari"
       role: "Sponsors Manager"
       pic_filename: "giovanna.jpg"
+    member_4:
+      name: "Cesare D'Amico"
+      role: "GrUSP Board Member"
+      pic_filename: "cesare.jpg"
+    member_5:
+      name: "Daniel Londero"
+      role: "GrUSP Board Member"
+      pic_filename: "daniel.jpg"
+    member_6:
+      name: "Francesco Fullone"
+      role: "Troublemaker"
+      pic_filename: "fullo.jpg"
