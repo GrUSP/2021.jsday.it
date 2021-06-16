@@ -16,6 +16,10 @@ platinum:
     site_url: "https://www.workwave.com/"
 gold:
   sponsor1:
+    name: "Auth0"
+    logo_filename: "auth0.svg"
+    site_url: "https://a0.to/jsday2021"
+  sponsor2:
     name: "Cloudinary"
     logo_filename: "cloudinary.svg"
     site_url: "https://cloudinary.rocks/jq2"
