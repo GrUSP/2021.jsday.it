@@ -30,7 +30,7 @@ speaker_4: &rolandbole
   speaker_name: Roland Bole
   speaker_pic_filename: roland-bole.png
   speaker_role: "CEO @ samlinux development"
-  speaker_bio: ""
+  speaker_bio: "Roland is a cloud blockchain solution architect and CEO of sdg - samlinux development group in Klagenfurt, Austria. He loves to work with blockchain technologies and Node.js. When not working, Roland is a passionate trail runner."
   speaker_twitter_url: "https://twitter.com/samlinux"
 speaker_5: &davidburrowes
   speaker_in_speaker_lists: true
