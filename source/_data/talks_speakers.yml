@@ -92,7 +92,7 @@ speaker_13: &isabellazaczek
   speaker_in_speaker_lists: true
   speaker_name: Isabella Zaczek
   speaker_pic_filename: isabella-zaczek.png
-  speaker_role:
+  speaker_role: "VP BU Transport"
   speaker_bio: "is a German native who moved to Colorado in 2011 to lead a global customer operations team for a Fortune 500 company. Having worked in telecommunications for 18 years in Europe and the USA, supporting over 250 top global brands across 5 continents and 10 industries, she realized that most businesses were making things harder for themselves by over-engineering processes and systems rather than keeping it simple, causing stale profit growth and employee turnover. At IZ Consulting, Isabella helps organizations untangle the complexities of people, processes and metrics, to create stronger bottom-lines, more engaged employees and customer devotion and leverages process and data to drive human performance."
   speaker_twitter_url: ""
 speaker_14: &dominikazajac
