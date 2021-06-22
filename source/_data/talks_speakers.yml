@@ -64,7 +64,7 @@ speaker_9: &jessicarose
   speaker_in_speaker_lists: true
   speaker_name: Jessica Rose
   speaker_pic_filename: jessica-rose.png
-  speaker_role:
+  speaker_role: Devrel @ CodeSee
   speaker_bio: "is a passionate advocate for better access to technical education and meaningful work in technology. She’s working with CodeSee as their head of developer relations. She’s Birmingham based and will talk your ear off about how great the city is. She’s always interested in hearing about your technical or non-tech passions!"
   speaker_twitter_url: "https://twitter.com/jesslynnrose"
 speaker_10: &francescostrazzullo
