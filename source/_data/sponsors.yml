@@ -41,6 +41,16 @@ bronze:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
+  sponsor2:
+    name: "clearleft"
+    logo_filename: "clearleft.png"
+    site_url: "https://clearleft.com/"
+  sponsor3:
+    name: "flowing"
+    logo_filename: "flowing.png"
+    site_url: "https://www.flowing.it/"
+
+
 # Partner configuration
 partner_tags:
   - js

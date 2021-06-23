@@ -22,7 +22,7 @@ speaker_3: &michaelbashurov
   speaker_in_speaker_lists: true
   speaker_name: Michael Bashurov
   speaker_pic_filename: michael-bashurov.png
-  speaker_role: ""
+  speaker_role: "Senior Frontend Engineer @ Wisebits"
   speaker_bio: "Fullstack JS/.NET Ronin, Typescript ReasonML enthusiast. Type theory compilers wannabe. @HolyJSConf program committee. He/him"
   speaker_twitter_url: "https://twitter.com/saitonakamura"
 speaker_4: &rolandbole
@@ -38,7 +38,7 @@ speaker_5: &davidburrowes
   speaker_pic_filename: david-burrowes.png
   speaker_role: "Sr. Software Engineer @ Split Software"
   speaker_bio: "is a software engineer at Split.io with a decade of experience developing web applications for companies like Box, Delphix, and VMware. Having worked without feature flags, and with clunky in-house feature flagging frameworks, David is deliriously happy to have all of Split's capabilities at his disposal for every project. For fun, and to prove he’s more Star Trek than Star Wars, David likes to randomly quote large sections for Star Trek II: The Wrath of Khan."
-  speaker_twitter_url: "https://twitter.com/"
+  speaker_twitter_url: ""
 speaker_6: &jeremykeith
   speaker_in_speaker_lists: true
   speaker_name: Jeremy Keith
