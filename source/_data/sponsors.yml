@@ -38,18 +38,21 @@ silver:
     site_url: "https://www.mia-platform.eu/it/"
 bronze:
   sponsor1:
-    name: "stickermule"
-    logo_filename: "stickermule.svg"
-    site_url: "https://mule.to/p1j5"
-  sponsor2:
     name: "clearleft"
     logo_filename: "clearleft.png"
     site_url: "https://clearleft.com/"
-  sponsor3:
+  sponsor2:
     name: "flowing"
     logo_filename: "flowing.png"
     site_url: "https://www.flowing.it/"
-
+  sponsor3:
+    name: "stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://mule.to/p1j5"
+  sponsor4:
+    name: "split"
+    logo_filename: "split.svg"
+    site_url: "https://www.split.io/"
 
 # Partner configuration
 partner_tags:

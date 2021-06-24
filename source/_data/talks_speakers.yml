@@ -15,7 +15,7 @@ speaker_2: &romanbaran
   speaker_in_speaker_lists: true
   speaker_name: Roman Baran
   speaker_pic_filename: roman-baran.png
-  speaker_role:
+  speaker_role: "Front End Team Leader @ Accenture"
   speaker_bio: "I have been working as a Front End developer since 2016, carrying on this passion over the years, but always keeping an eye on Back End, AI, and Cloud – and other keywords that make your bio more appealing!"
   speaker_twitter_url: ""
 speaker_3: &michaelbashurov
