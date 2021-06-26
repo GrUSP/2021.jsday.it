@@ -103,13 +103,22 @@ speaker_14: &dominikazajac
   speaker_bio: "is an active, well-organized person who fell in love with web and mobile programming. Frontend and mobile developer at Qualtrics in Cracow. Volunteer, mentor, and organizer of many IT events like Greenlight 4 Girls, Night of Scientists or ngGirls. Passionate about singing, theatre, and IT event organizing."
   speaker_twitter_url: "https://twitter.com/domizajac"
 
-#speaker_15: &mc
-#  speaker_in_speaker_lists: true
-#  speaker_name: MC
-#  speaker_pic_filename: giulia.jpeg
-#  speaker_role: "speaker role (optional)"
-#  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-#  is_mc: true
+speaker_15: &tomas
+  speaker_in_speaker_lists: true
+  speaker_name: Tomas Trajan
+  speaker_pic_filename: tomas-trajan.png
+  speaker_role: "MASTER OF CEREMONIES - Google Developer Expert for Angular and Web Technologies"
+  speaker_bio: ""
+  is_mc: true
+
+speaker_16: &sharone
+  speaker_in_speaker_lists: true
+  speaker_name: Sharone Zitzman
+  speaker_pic_filename: sharone-zitzman.png
+  speaker_role: "MASTER OF CEREMONIES - Founder @ RTFM Please"
+  speaker_bio: ""
+  is_mc: true
+
 
 speakers:
   speaker_1: *karanbalkar
@@ -126,6 +135,8 @@ speakers:
   speaker_12: *jenniferwadella
   speaker_13: *isabellazaczek
   speaker_14: *dominikazajac
+  speaker_15: *tomas
+  speaker_16: *sharone
 
 tracks:
   track_1: &track_1
