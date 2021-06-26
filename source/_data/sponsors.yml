@@ -46,10 +46,14 @@ bronze:
     logo_filename: "flowing.png"
     site_url: "https://www.flowing.it/"
   sponsor3:
+    name: "qualtrics"
+    logo_filename: "qualtrics.svg"
+    site_url: "https://www.qualtrics.com/"
+  sponsor4:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
-  sponsor4:
+  sponsor5:
     name: "split"
     logo_filename: "split.svg"
     site_url: "https://www.split.io/"

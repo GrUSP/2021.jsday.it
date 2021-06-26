@@ -7,11 +7,11 @@ language: "en"
 menu:
   welcome: welcome
   talks_speakers: talks & speakers
+  schedule: schedule
+  workshop: workshop
   sponsor: sponsor
   # scommentare per generare pagina
-  # schedule: schedule
   # menu item for workshop
-  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:

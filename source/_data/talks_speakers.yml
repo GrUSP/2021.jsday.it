@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -159,24 +159,24 @@ days:
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-07-06T17:45+02:00
-        end_datetime: 2021-07-06T18:00+02:00
+        start_datetime: 2021-07-06T18:15+02:00
+        end_datetime: 2021-07-06T18:30+02:00
         talk_title: "See you tomorrow!"
       coffee-morning:
         item_type: "service"
         start_datetime: 2021-07-06T11:00+02:00
-        end_datetime: 2021-07-06T11:15+02:00
+        end_datetime: 2021-07-06T11:30+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2021-07-06T16:30+02:00
-        end_datetime: 2021-07-06T16:45+02:00
+        start_datetime: 2021-07-06T16:00+02:00
+        end_datetime: 2021-07-06T16:30+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2021-07-06T13:00+02:00
+        start_datetime: 2021-07-06T13:15+02:00
         end_datetime: 2021-07-06T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
@@ -185,78 +185,29 @@ days:
       karan-touchless:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T17:30+02:00
+        end_datetime: 2021-07-06T18:15+02:00
         talk_title: "Developing Touchless apps that Talk!"
         talk_description: "This sessions talks about how to develop touchless apps (apps that can be controlled via gestures,voice etc.) using JavaScript libraries. It also talks about how one can get started in developing a PWA app that is touchless and voice controlled. During the last year, due to COVID-19 pandemic, a lot of companies, restaurants, airports felt the need to develop touchless apps to make the overall experience contact-free. Also, it is believed that touchless technology is one of the best ways to deal with this issue. They are slowly becoming the new norm in offices across the globe."
         talk_video_url:
         speakers:
           speaker_1: *karanbalkar
-      roman-whats-new:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "What's new in ES2020/ES2021"
-        talk_description: "JavaScript is a constantly evolving language and during this talk we are going to explore together the most interesting features of the last two versions, with some live coding that never hurts."
-        talk_video_url:
-        speakers:
-          speaker_1: *romanbaran
+
       michael-type-directed-emit:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T12:15+02:00
+        end_datetime: 2021-07-06T13:15+02:00
         talk_title: "Bending reality with Type-directed emit"
         talk_description: "Ever wondered why even if you have a Flow/TypeScript type you still can't use it in the runtime? Say, for JSON validation or some other stuff. What if I say you that it's possible to emit based solely on type? In this talk we'll explore what type-directed emit is, it's applications and limitations."
         talk_video_url:
         speakers:
           speaker_1: *michaelbashurov
-      roland-hyperledger:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Hyperledger Fabric for Node.js Developers"
-        talk_description: "Blockchain is one of the future technologies and for JavaScript developers it could be an interesting playground. In this talk I take the attendee on a journey through the world of Hyperledger Fabric and how a Node.js developer can write chaincode and interact with the network. This is demonstrated with a CRUD application. The talk starts with a short introduction of Hyperledger Fabric. Then, I demonstrate how the fabric-contract-api can be used to write a chaincode (smart contract) with Node.js. Concluding, I explain a proper express.js REST application to interact with the network. After the session you will have a basic understanding of Hyperledger Fabric and how a Node.js developer can use it."
-        talk_video_url:
-        speakers:
-          speaker_1: *rolandbole
-      david-feature-flags:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Managing Feature Flags Efficiently"
-        talk_description: "Our React/Redux JavaScript application has around 3000K lines of code and more active feature flags at any given moment than we have fingers and toes. As we have moved into a world of continuous deployment with controlled releases, the use of feature flags has become an essential way of writing software. Yet, when we started out, we ended up with code that was hard to read, hard to reason about, and hard to manage. After exploring several strategies, we have found a pattern that aligns feature flags with larger code units (components, reducers, actions) rather than at individual lines of code. This alleviates much of the pain that a naîve application of feature flags to a code base can introduce, restoring the development velocity we need. I’ll share what works for us and pass along some tips for right-sizing practices to your unique situation. While the focus here is on a React/Redux codebase, the principles will apply to any framework or technology."
-        talk_video_url:
-        speakers:
-          speaker_1: *davidburrowes
-      jeremy-state-of-web:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "The State Of The Web"
-        talk_description: "The World Wide Web has come a long way in its three decades of existence. There’s so much we can do now with HTML, CSS, and JavaScript: animation, layout, powerful APIs… we can even make websites that work offline! And yet the web isn’t exactly looking rosy right now. The problems we face aren’t technical in nature. We’re facing a crisis of expectations: we’ve convinced people that the web is slow, buggy, and inaccessible. But it doesn’t have to be this way. There is no fate but what we make. In this perspective-setting talk, we’ll go on a journey to the past, present, and future of web design and development. You’ll laugh, you’ll cry, and by the end, you’ll be ready to make the web better."
-        talk_video_url:
-        speakers:
-          speaker_1: *jeremykeith
-      tamas-web-assembly:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Supercharge your JavaScript with Web Assembly"
-        talk_description: "Browser and Web APIs along with JavaScript have seen an incredible amount of development and enhancement over the past decade, however they still have certain limitations. With the rise of Web Assembly we can very easily enhance JavaScript and give our application(s) access to low-level processing and potentially transform web experiences. By the end of the talk attendees will have a throughout understanding of Web Assembly, and why it's such a great option for extending the capabilities of the browser and JavaScript via a real life example."
-        talk_video_url:
-        speakers:
-          speaker_1: *tamaspiros
       michele-nextjs:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T16:30+02:00
+        end_datetime: 2021-07-06T17:30+02:00
         talk_title: "Multi-tenant Next.js at any scale"
         talk_description: "Serving hundreds of different websites from a single Next.js installation? Is it really possible? Yes, let's see how! This talk will explore how a multi-tenant architecture can solve many different problems at any scale, both for small startups and big corporates working on enterprise-level software. We'll see how to design a multi-tenant architecture using one of the most popular and loved frameworks out there: Next.js! Are you ready to bring your architecture to the next level?"
         talk_video_url:
@@ -265,8 +216,8 @@ days:
       jessica-literacy:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T14:30+02:00
+        end_datetime: 2021-07-06T15:15+02:00
         talk_title: "Code Literacy"
         talk_description: "As programmers think about our own work with code, we place an incredible emphasis on the act of production. We focus on the act of writing code as if writing and often present it as the primary way we expect to interact with a codebase. This talk will approach codebases as living texts and explore the value of re-examining the twin skills of reading and understanding codebases. We’ll look at linguistics and literacy concepts that give us new ways to conceptualize how we read code, as well as software specific tools and approaches we can use to further our reading skills."
         talk_video_url:
@@ -275,8 +226,8 @@ days:
       francesco-ddd:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T10:00+02:00
+        end_datetime: 2021-07-06T11:00+02:00
         talk_title: "Domain-Driven Frontend"
         talk_description: "DDD is probably one of the most important ecosystems of the last 20 years of software engineering. Nowadays frontend applications are an important piece of software architecture. Nevertheless, Bounded Contexts, Aggregates, Anticorruption Layers are all well-known concept that somehow are often not applied when building large and complex frontend applications. The purpose of this talk is to show how some of the DDD techniques are easily applied to Frontend engineering, resulting in more robust and evolvable codebases."
         talk_video_url:
@@ -285,8 +236,8 @@ days:
       gil-es-modules:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T11:30+02:00
+        end_datetime: 2021-07-06T12:15+02:00
         talk_title: "Aaaaaaaaaaaaaah, They’re Here! ES Modules in Node.JS"
         talk_description: "Yes, they’re here. Node v12 marked the first version of Node.JS where ESM support is unflagged, meaning you can start using ES Modules. It’s been a long, four year journey from defining them in the spec (June 2015!) till they could be used in Node.JS (November 2019). Why did it take so long? What were the major hurdles? What does the migration path look like? Are they really better than CommonJS Modules? What is in store for the future? And most importantly: can I start the migration? Gil Tayar, a former member of the Node.JS Modules Working Group, will try and navigate these confusing waters, and hopefully make you understand why, when, and how to migrate your Node.JS code to use ES Modules."
         talk_video_url:
@@ -295,18 +246,103 @@ days:
       jennifer-microfrontends:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-06T15:15+02:00
+        end_datetime: 2021-07-06T16:00+02:00
         talk_title: "The Problems Micro Frontends Won't Solve That No One Wants to Talk About"
         talk_description: "Everyone wants to ship more software faster, and following the lead of the MicroServices craze the front-end community has begun to reach for Micro Frontends as a silver bullet solution. Micro Frontends promise large teams the ability to independently ship pieces of applications without code collisions, bug creation, that can be team-agnostic, and with Webpack 5 leaning in to offer Module Federation, this seems to be the way of the future. But what problems aren't solved by Micro Frontends? There is a large gap in what large complex teams need to ship better software and what Micro Frontends are able to provide ... and that gap is the basis of this talk. We'll discuss what Micro Frontends are, approaches and tools to using this architecture pattern, and discuss the consequences that arise that no on seems to want to talk about."
         talk_video_url:
         speakers:
           speaker_1: *jenniferwadella
+
+  day_2:
+    date: 2021-07-07T09:45+02:00
+    title: "Day 2"
+    talks:
+    # service
+      opening:
+        item_type: "service"
+        start_datetime: 2021-07-07T09:45+02:00
+        end_datetime: 2021-07-07T10:00+02:00
+        talk_title: "Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime: 2021-07-07T18:15+02:00
+        end_datetime: 2021-07-07T18:30+02:00
+        talk_title: "See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2021-07-07T11:00+02:00
+        end_datetime: 2021-07-07T11:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2021-07-07T16:00+02:00
+        end_datetime: 2021-07-07T16:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2021-07-07T13:15+02:00
+        end_datetime: 2021-07-07T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+
+      roman-whats-new:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-07T11:30+02:00
+        end_datetime: 2021-07-07T12:15+02:00
+        talk_title: "What's new in ES2020/ES2021"
+        talk_description: "JavaScript is a constantly evolving language and during this talk we are going to explore together the most interesting features of the last two versions, with some live coding that never hurts."
+        talk_video_url:
+        speakers:
+          speaker_1: *romanbaran
+      roland-hyperledger:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-07T12:15+02:00
+        end_datetime: 2021-07-07T13:15+02:00
+        talk_title: "Hyperledger Fabric for Node.js Developers"
+        talk_description: "Blockchain is one of the future technologies and for JavaScript developers it could be an interesting playground. In this talk I take the attendee on a journey through the world of Hyperledger Fabric and how a Node.js developer can write chaincode and interact with the network. This is demonstrated with a CRUD application. The talk starts with a short introduction of Hyperledger Fabric. Then, I demonstrate how the fabric-contract-api can be used to write a chaincode (smart contract) with Node.js. Concluding, I explain a proper express.js REST application to interact with the network. After the session you will have a basic understanding of Hyperledger Fabric and how a Node.js developer can use it."
+        talk_video_url:
+        speakers:
+          speaker_1: *rolandbole
+      david-feature-flags:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-07T16:30+02:00
+        end_datetime: 2021-07-07T17:15+02:00
+        talk_title: "Managing Feature Flags Efficiently"
+        talk_description: "Our React/Redux JavaScript application has around 3000K lines of code and more active feature flags at any given moment than we have fingers and toes. As we have moved into a world of continuous deployment with controlled releases, the use of feature flags has become an essential way of writing software. Yet, when we started out, we ended up with code that was hard to read, hard to reason about, and hard to manage. After exploring several strategies, we have found a pattern that aligns feature flags with larger code units (components, reducers, actions) rather than at individual lines of code. This alleviates much of the pain that a naîve application of feature flags to a code base can introduce, restoring the development velocity we need. I’ll share what works for us and pass along some tips for right-sizing practices to your unique situation. While the focus here is on a React/Redux codebase, the principles will apply to any framework or technology."
+        talk_video_url:
+        speakers:
+          speaker_1: *davidburrowes
+      jeremy-state-of-web:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-07T10:00+02:00
+        end_datetime: 2021-07-07T11:00+02:00
+        talk_title: "The State Of The Web"
+        talk_description: "The World Wide Web has come a long way in its three decades of existence. There’s so much we can do now with HTML, CSS, and JavaScript: animation, layout, powerful APIs… we can even make websites that work offline! And yet the web isn’t exactly looking rosy right now. The problems we face aren’t technical in nature. We’re facing a crisis of expectations: we’ve convinced people that the web is slow, buggy, and inaccessible. But it doesn’t have to be this way. There is no fate but what we make. In this perspective-setting talk, we’ll go on a journey to the past, present, and future of web design and development. You’ll laugh, you’ll cry, and by the end, you’ll be ready to make the web better."
+        talk_video_url:
+        speakers:
+          speaker_1: *jeremykeith
+      tamas-web-assembly:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-07T15:15+02:00
+        end_datetime: 2021-07-07T16:00+02:00
+        talk_title: "Supercharge your JavaScript with Web Assembly"
+        talk_description: "Browser and Web APIs along with JavaScript have seen an incredible amount of development and enhancement over the past decade, however they still have certain limitations. With the rise of Web Assembly we can very easily enhance JavaScript and give our application(s) access to low-level processing and potentially transform web experiences. By the end of the talk attendees will have a throughout understanding of Web Assembly, and why it's such a great option for extending the capabilities of the browser and JavaScript via a real life example."
+        talk_video_url:
+        speakers:
+          speaker_1: *tamaspiros
       isabella-diversity:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-07T17:15+02:00
+        end_datetime: 2021-07-07T18:15+02:00
         talk_title: "Tales of a German Building Diverse Teams Across All Time Zones"
         talk_description: "Cultural growth is inevitable to create community. While everyone is talking about culture, diversity and growth, my talk provides actions and experiences of operating globally and putting humans first. The session will highlight how to build a sustainable and diverse customer operations team that produces results and makes a difference using the philosophy to work towards one goal 80% of the time and allow 20% for local needs, customs and quirks."
         talk_video_url:
@@ -315,13 +351,15 @@ days:
       dominika-accessibility:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-07T14:30+02:00
+        end_datetime: 2021-07-07T15:15+02:00
         talk_title: "How to make the Internet available for everyone — accessibility in the web development"
         talk_description: "The Internet is an awesome place where everyone can find interesting materials for them. Unfortunately, sometimes we forget some people cannot use it the same way as most of us - e.g. people with vision, motion, or cognitive disabilities. Why accessibility is so unpopular topic among developers? I believe it's not because of bad will - we often don't understand our users' problems. It's why I want to show some tricks to better understand users with disabilities, talk about the most popular mistakes (and fixes for them), and improvements you can include in your development process to avoid accessibility problems in the future."
         talk_video_url:
         speakers:
           speaker_1: *dominikazajac
+
+
   # day_2:
   #   date: 2020-09-17T09:00
   #   title: "Day 2"
