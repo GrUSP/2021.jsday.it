@@ -29,7 +29,7 @@ conference:
   date: 2021-07-06T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text: July 06-07th, 2021
-  countdown_visible: true
+  countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
